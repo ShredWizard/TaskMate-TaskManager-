@@ -301,7 +301,7 @@ export const updateTask = async (req, res) => {
     return res.status(400).json({ status: false, message: error.message });
   }
 };
-
+// 
 export const trashTask = async (req, res) => {
   try {
     const { id } = req.params;
